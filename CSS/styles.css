@@ -7,57 +7,48 @@
  /*Фон "Наша команда" F5F4FA */
  /* Фон "Футтер" 2F303A */
 
+ :root{
+     --primary-text-color: #212121;
+     --secondary-text-color: #757575;
+     --accent-color: #2196F3;
+ }
+
  body{
      background-color: #fff;
-     color:#212121 ;
+     color:var(--primary-text-color);
  }
  
  ul{
     list-style: none
  }
+ /* Логотип */
  .logo{
      color:#000000;
  }
 /* Navigation */
  .navi a{
-     color:#212121 ;
+     color:var(--primary-text-color) ;
  }
 
  .navi a:hover,
  .navi a:focus{
-     color:#2196F3 ;
+     color:var(--accent-color) ;
  }
 
  .navi-contact a{
-     color:#212121 ;
+     color:var(--primary-text-color) ;
  }
  .navi-contact a:hover,
  .navi-contact a:focus{
-     color:#2196F3 
+     color:var(--accent-color) 
  }
-
-
-
+ 
  /* Hero */
  
  /* Наши преимущества */
-
-.group{
-    color: #212121;
-}
-
-.clock{ 
-    color: #212121;
-}
-
-.diagram{
-    color: #212121;
-}
-
-.astronaut{
-    color: #212121;
-}
-
-.advantage{
-    color: #757575;
-}
+ .section-title{
+   color:var(--primary-text-color);  
+ }
+ .advantage{
+   color: var(--secondary-text-color);
+ }
