@@ -58,6 +58,9 @@
     color:var(--primary-text-color);
  }
  /* Наша команда */
+ .section-team{
+     background-color:#F5F4FA;
+ }
  .section-title{
     color:var(--primary-text-color);
  }  
@@ -71,4 +74,35 @@
  .soc-net a:focus{
      color:var(--accent-color) ;
  }
- 
+ /* Постоянные клиенты */
+ .clients{
+     color: var(--primary-text-color);
+ }
+/* Футер */
+.footer{
+    background-color: #2F303A;
+}
+.address{
+    color:#FFFFFF;
+}
+.mail{
+    color: rgba(255, 255, 255, 0.6);
+}
+.mail:hover, .mail:focus{
+    color:var( --accent-color) ;
+}
+.telefon{
+    color:rgba(255, 255, 255, 0.6) ;
+}
+.telefon:hover, .telefon:focus{
+    color: var(--accent-color);
+}
+.join{
+    color:#FFFFFF ;
+}
+.subscribe{
+    color:#FFFFFF ;
+}
+.copyright{
+    color:rgba(255, 255, 255, 0.4) ;
+}
