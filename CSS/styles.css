@@ -25,6 +25,9 @@
  .logo{
      color:#000000;
  }
+ .logo-item{
+     color:var(--accent-color) ;
+ }
  /* Navigation */
  .navi a{
      color:var(--primary-text-color) ;
@@ -41,6 +44,9 @@
  .navi-contact a:hover,
  .navi-contact a:focus{
      color:var(--accent-color) 
+ }
+ .navi a.current{
+     color: var(--accent-color);
  }
 
  /* Hero */
@@ -106,3 +112,7 @@
 .copyright{
     color:rgba(255, 255, 255, 0.4) ;
 }
+.logotip{
+    color:#FFFFFF ;
+}
+
