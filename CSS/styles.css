@@ -116,4 +116,30 @@
     color:#FFFFFF ;
 }
 
+/* Button */
+.button{
+    color: var(--primary-text-color);
+    background-color:#FFFFFF ;
+}
+.button.primary{
+    background-color:var(--accent-color) ;
+    color:#FFFFFF ;
+}
+.button.secondary{
+    color:var(--accent-color) ;
+    background-color:#FFFFFF ;
+}
+
 /* Портфолио */
+
+/* Основной цвет #212121 */
+/* Второстепенный цвет #757575 */
+/* Фоновый для навигации #F5F4FA */
+/* Accent --accent-color */
+.navigation .link{
+    color:#212121 ;  
+    background-color:#F5F4FA ;  
+}
+.navigation .link:hover, .link:focus{
+    color:var(--accent-color)  ;
+}
