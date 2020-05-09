@@ -67,6 +67,17 @@
 
 
  /* Hero */
+ .hero{
+     background-color:var(--secondary-text-color) ;
+     color:#FFFFFF  ;   
+    
+     font-weight: 700;
+     font-size: 44px;
+     line-height: 1.4;         
+     text-align: center;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
+ }
  
  /* Наши преимущества */
  .section-title{
