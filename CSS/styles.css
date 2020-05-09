@@ -116,6 +116,7 @@
     color: rgba(255, 255, 255, 0.6);
 
     text-decoration: none;
+    line-height: 1.7;
 }
 .mail:hover, .mail:focus{
     color:var( --accent-color) ;
@@ -124,22 +125,41 @@
     color:rgba(255, 255, 255, 0.6) ;
 
     text-decoration: none;
+    line-height: 1.7;
 }
 .telefon:hover, .telefon:focus{
     color: var(--accent-color);
 }
 .join{
-    color:#FFFFFF ;
+    color:#FFFFFF ;    
+
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
 }
 .subscribe{
     color:#FFFFFF ;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .copyright{
-    color:rgba(255, 255, 255, 0.4) ;
+    color:rgba(255, 255, 255, 0.4) ;    
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .logotip{
     color:#FFFFFF ;
-    
+
     font-family: Raleway, sans-serif;
     text-decoration: none;
 }
