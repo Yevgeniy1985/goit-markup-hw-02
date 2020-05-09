@@ -16,6 +16,7 @@
  body{
      background-color: #fff;
      color:var(--primary-text-color);
+     font-family: Roboto, sans-serif;
  }
  
  ul{
@@ -24,13 +25,22 @@
  /* Логотип */
  .logo{
      color:#000000;
+     font-family: Raleway, sans-serif;        
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+
+    
  }
- .logo-item{
+  .logo-item{
      color:var(--accent-color) ;
  }
  /* Navigation */
  .navi a{
      color:var(--primary-text-color) ;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
  }
 
  .navi a:hover,
@@ -39,7 +49,10 @@
  }
 
  .navi-contact a{
-     color:var(--primary-text-color) ;
+     color:var(--secondary-text-color) ;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
  }
  .navi-contact a:hover,
  .navi-contact a:focus{
@@ -48,6 +61,7 @@
  .navi a.current{
      color: var(--accent-color);
  }
+
 
  /* Hero */
  
@@ -114,12 +128,17 @@
 }
 .logotip{
     color:#FFFFFF ;
+    font-family: Raleway, sans-serif;
 }
 
 /* Button */
 .button{
     color: var(--primary-text-color);
     background-color:#FFFFFF ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
 }
 .button.primary{
     background-color:var(--accent-color) ;
