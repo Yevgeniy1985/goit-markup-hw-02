@@ -26,9 +26,10 @@
  .logo{
      color:#000000;
      font-family: Raleway, sans-serif;        
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
+     font-weight: bold;
+     font-size: 26px;
+     line-height: 1.19;
+     text-decoration: none;
 
     
  }
@@ -41,6 +42,7 @@ line-height: 1.19;
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
+     text-decoration: none;
  }
 
  .navi a:hover,
@@ -53,6 +55,7 @@ line-height: 1.19;
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
+     text-decoration: none;
  }
  .navi-contact a:hover,
  .navi-contact a:focus{
@@ -104,15 +107,23 @@ line-height: 1.19;
 }
 .address{
     color:#FFFFFF;
+    
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
 }
 .mail{
     color: rgba(255, 255, 255, 0.6);
+
+    text-decoration: none;
 }
 .mail:hover, .mail:focus{
     color:var( --accent-color) ;
 }
 .telefon{
     color:rgba(255, 255, 255, 0.6) ;
+
+    text-decoration: none;
 }
 .telefon:hover, .telefon:focus{
     color: var(--accent-color);
@@ -128,7 +139,9 @@ line-height: 1.19;
 }
 .logotip{
     color:#FFFFFF ;
+    
     font-family: Raleway, sans-serif;
+    text-decoration: none;
 }
 
 /* Button */
@@ -155,10 +168,30 @@ line-height: 1.19;
 /* Второстепенный цвет #757575 */
 /* Фоновый для навигации #F5F4FA */
 /* Accent --accent-color */
-.navigation .link{
-    color:#212121 ;  
-    background-color:#F5F4FA ;  
+
+
+.navigation{
+    text-decoration: none;
 }
-.navigation .link:hover, .link:focus{
-    color:var(--accent-color)  ;
-}
+
+/* Наши возможности */
+
+.portfolio-h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2; 
+    letter-spacing: 0.06em;   
+ }
+ .description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;     
+    letter-spacing: 0.03em
+ }
+ 
+ .text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+ }
