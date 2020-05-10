@@ -266,3 +266,7 @@
     line-height: 1.56;
     letter-spacing: 0.03em;
  }
+
+ .navigation{
+     text-decoration: none;
+ }
